@@ -5,36 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-<header>
-<div>
-<h1>Building.
-    Brands.</h1>
-<p>We love to explore new ways to engage with brands and reach new levels of creative outlets through design.</p>
-<address>
-    <a href="mailto:conservatoire@agglo-belfort.fr">conservatoire@agglo-belfort.fr</a>
-</address>
-</div>
-    <h2>Last work</h2>
-    <p>Here are some exciting new projects we’ve been working on</p>
-    <img src="../assets/img/home page/Image.webp" alt="">
-    <p>Vrai Corporate Branding and Packaging</p>
-    <img src="../assets/img/home page/Image2.webp" alt="">
-    <p>Vrai Corporate Branding and Packaging</p>
-    <img src="../assets/img/home page/image3.webp" alt="">
-    <p>Vrai Corporate Branding and Packaging</p>
-    <img src="../assets/img/home page/image10.webp" alt="">
-    <p>Vrai Corporate Branding and Packaging</p>
-    <img src="../assets/img/home page/image4.webp" alt="">
-    <p>Vrai Corporate Branding and Packaging</p>
-
-    <button type="submit">See all</button>
-<div>
-<h3>Upcoming events</h3>
-
-</div>
-
-</header>
+    <header>
+        <div>
+            <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn">menu</button>
+         <h1>advancing technology</h1> 
+         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+         <ul>
+            <li><a href="Livre.html">livre</a></li>
+            <li><a href="Film.html">Film</a></li>
+            <li><a href="Espoir.html">Espoir</a></li>
+            <li><a href="Regret.html">Regret</a></li>
+            <li><a href="Lieu.html">Lieu</a></li>
+            <li><a href="Mus.html".html>Musique</a></li>
+         </ul>
+         <ul>
+            <li><a href="à propos.html">à propos</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Autres projet.html">Autres projet</a></li>
+         </ul>
+        </div>
+    </nav>
+    </header>
 </body>
-</html>
