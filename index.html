@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen:false}"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +12,14 @@
         <div>
             <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn">menu</button>
          <h1>advancing technology</h1> 
-         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
          <ul>
             <li><a href="Livre.html">livre</a></li>
             <li><a href="Film.html">Film</a></li>
             <li><a href="Espoir.html">Espoir</a></li>
             <li><a href="Regret.html">Regret</a></li>
             <li><a href="Lieu.html">Lieu</a></li>
-            <li><a href="Mus.html".html>Musique</a></li>
+            <li><a href="Musique".html>Musique</a></li>
          </ul>
          <ul>
             <li><a href="à propos.html">à propos</a></li>
