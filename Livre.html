@@ -5,3 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp hebergement</title>
+    <div>
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn">menu</button>
+     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+     <ul>
+        <li><a href="Livre.html">livre</a></li>
+        <li><a href="Film.html">Film</a></li>
+        <li><a href="Espoir.html">Espoir</a></li>
+        <li><a href="Regret.html">Regret</a></li>
+        <li><a href="Lieu.html">Lieu</a></li>
+        <li><a href="Musique".html>Musique</a></li>
+     </ul>
+     <ul>
+        <li><a href="à propos.html">à propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Autres projet.html">Autres projet</a></li>
+     </ul>
+    </nav>
+    </div>
