@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div>
+        <img src="./public/img/Logo.svg" alt="Logo">
+        <img src="./public/img/united-kingdom 1.svg" alt="eng">
+            <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="./public/img/align-justify 1.svg" alt="menu"></button>
+         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+         <ul>
+            <li><a href="Livre.html">livre</a></li>
+            <li><a href="Film.html">Film</a></li>
+            <li><a href="Espoir.html">Espoir</a></li>
+            <li><a href="Regret.html">Regret</a></li>
+            <li><a href="Lieu.html">Lieu</a></li>
+            <li><a href="Orelsan.html".html>Musique</a></li>
+         </ul>
+         <ul>
+            <li><a href="à propos.html">à propos</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Autres projet.html">Autres projet</a></li>
+         </ul>
+        </nav>
+    </header>
+        </div>
+    
+    <main>
+        <div>
+        <h3>À propos</h3>
+        <p>Je suis Maxime ruchet un jeune étudiant de 18 ans débutant ma prmière année de BUT MMI. J’ai réalisé se projet dans le cadre d’un exercie pédagoqiue en partenariat avec mon école.</p>
+        <p>Le projet a été très bénéfique pour moi car il ma permis d’en apprendre beaucoup plus sur le maquettage d’un site web ainsi que sur l’utilisation du logiciel Figma.</p>
+        <div>
+        <img src="/public/img/Logofigma.webp" alt="logo figma">
+        <img src="./public/img/MMI_dut_small_black1.webp" alt="MMi logo">
+    </div>
+    <div>
+    <h2>Glossair</h2>   
+    <ul>
+        <li><h3>Métavers</h3><p>Le Métavers est un therme technique utilisé pour parler d’un monde virtuelle appartenant au web 3.0. C’est en quelque sorte le web de futur accessible à l’aide d’un casque VR.</p></li>
+        <li><h3>Aurore boréale</h3><p>c’est un phénomène lumineux présent dans le ciel caractérisé par des voiles extrêmement colorés, le vert étant prédominant. Mais peins d’autres couleurs peuvent apparaitrent.</p></li>
+     </ul>
+    </div>
+    </main>
+
+    <footer>
+        <p>MMI montbéliard</p>
+        <p>Me contacter</p>
+        <img src="./public/img/instagram 1.svg" alt="instagram">
+        <img src="./public/img/Vector.svg" alt="Facebook">
+        <img src="./public/img/mail 1.svg" alt="Mail">
+        <h3>Mention légal</h3>
+        <p>Projet réalisé dans le cadre d’un exercice
+            pédagogique au département</p>
+        <p><a href="http://mmimontbeliard.com/">MMI montbéliard</a></p>
+        <p>Maxime Ruchet</p>
+        <img src="./public/img/MMI_dut_small_black 1.webp" alt="logo mmi">
+    </footer>
+</body> 

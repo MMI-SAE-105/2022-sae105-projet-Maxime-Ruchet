@@ -5,21 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp hebergement</title>
-    <div>
-        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn">menu</button>
-     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
-     <ul>
-        <li><a href="Livre.html">livre</a></li>
-        <li><a href="Film.html">Film</a></li>
-        <li><a href="Espoir.html">Espoir</a></li>
-        <li><a href="Regret.html">Regret</a></li>
-        <li><a href="Lieu.html">Lieu</a></li>
-        <li><a href="Musique".html>Musique</a></li>
-     </ul>
-     <ul>
-        <li><a href="à propos.html">à propos</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="Autres projet.html">Autres projet</a></li>
-     </ul>
-    </nav>
-    </div>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <body>
+      <header>
+          <div>
+          <img src="./public/img/Logo.svg" alt="Logo">
+          <img src="./public/img/united-kingdom 1.svg" alt="eng">
+              <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="./public/img/align-justify 1.svg" alt="menu"></button>
+           <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+           <ul>
+              <li><a href="Livre.html">livre</a></li>
+              <li><a href="Film.html">Film</a></li>
+              <li><a href="Espoir.html">Espoir</a></li>
+              <li><a href="Regret.html">Regret</a></li>
+              <li><a href="Lieu.html">Lieu</a></li>
+              <li><a href="Musique".html>Musique</a></li>
+           </ul>
+           <ul>
+              <li><a href="à propos.html">à propos</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="Autres projet.html">Autres projet</a></li>
+           </ul>
+          </nav>
+      </header>
+
+      <main>
+         <img src="./public/img/41JPlY5ie6L 2.webp" alt="Image de couverture">
+         <h1>Steve jobs : Biographie</h1>
+         <h3>Résumé</h3>
+         <p>Ce livre a été écrit à la demande de Steve Jobs par Walter Isaacson en 2011. C’est une
+            biographie qui raconte la vie de Steve Jobs depuis son enfance jusqu’à sa grande réussite
+            qui est la création de la célèbre marque Apple ainsi que les différentes étapes qui lui a fallu
+            pour réaliser ce grand projet.</p>
+         
+         <h3>Pourquoi j'ai choisi ce livre</h3>
+         <p>J’ai choisi ce livre car c’est un livre qui m’inspire énormément étant donné la motivation
+            ainsi que le côté innovateur de Steve Jobs qui lui a fallu pour créer son entreprise. De plus
+            ce qui m’a particulièrement plus dans ce livre, c’est que l’on apprend tout sur la vie de Steve
+            Jobs depuis son enfance et le livre raconte l’histoire de sa vie dans un ordre chronologique
+            selon ces différentes périodes. Pour être honnête c’est l’un des premier livre que j’ai lu
+            en entier et que j’ai vraiment apprécié de lire. Apple qui est une marque que j’apprécie
+            beaucoup de part ces appareils ainsi que le côté innovateur de la marque. Selon moi,
+            c’est une réussite concernant la biographie de Steve Jobs.</p>
+         
+         <h3>Les point négatifs</h3>
+         <ul>
+            <li>Pas écrit par Steve Jobs directement</li>
+            <li>Manque de confession de l’auteur ainsi que ses proches</li>
+            <li>Du fait de ses 900 pages, ressenti d’une lègère monotonie dans certains passages du livre.</li>
+         </ul>
+         
+         <h3>Les points positifs</h3>
+         <ul>
+            <li>Livre très bien écrit </li>
+            <li>Respecte les différentes informations concernant Steve Jobs </li>
+            <li>Livre très immersif </li>
+            <li>Parcours de Steve Jobs bien détailé </li>
+         </ul>
+
+         <h3>Une inspiration pour plus tard</h3>
+         <p>J’espère plus tard pouvoir m’inspirer de Steve Jobs. Son aspect
+            innovateur ainsi que la détermination que l’on ressent dans son livre vont m’aider dans ma vie
+            professionnel et personnel. Ce livre m’a beaucoup plus sur le point
+            technologique ainsi que technique. En effet,  dans le livre on peut
+            apercevoir entre les années 2000 et aujourd’hui, les téléphones ont énormément évolué.
+            Ce qui est très intéressant et prometteur.</p>
+
+         <h3>Exrtrait qui m’a marqué</h3>
+         <p>“ Jobs a cette incroyable capacité à inventer des gadgets dont on n'a pas besoin et sans lesquels , brusquement on ne peut plus vivre. “ </p>
+         <p>J’ai choisi cette extrait car pour moi il montre à quel point Steve Jobs à un aspect innovant et très marketing. C’est un côté que j’aime beaucoup chez lui.</p>
+      </main>
+
+      <footer>
+         <p>MMI montbéliard</p>
+         <p>Me contacter</p>
+         <img src="./public/img/instagram 1.svg" alt="instagram">
+         <img src="./public/img/Vector.svg" alt="Facebook">
+         <img src="./public/img/mail 1.svg" alt="Mail">
+         <h3>Mention légal</h3>
+         <p>Projet réalisé dans le cadre d’un exercice
+             pédagogique au département</p>
+         <p><a href="http://mmimontbeliard.com/">MMI montbéliard</a></p>
+         <p>Maxime Ruchet</p>
+         <img src="./public/img/MMI_dut_small_black 1.webp" alt="logo mmi">
+     </footer>
+ </body> 
+ 

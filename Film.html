@@ -1,7 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" x-data="{menuIsOpen:false}"></html>
-<head>
+<html lang="en" x-data="{menuIsOpen:false}">
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./public/img/Logo.svg" alt="Logo">
+            <img src="./public/img/united-kingdom 1.svg" alt="eng">
+            <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="./public/img/align-justify 1.svg" alt="menu"></button>
+            <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+         <ul>
+            <li><a href="Livre.html">livre</a></li>
+            <li><a href="Film.html">Film</a></li>
+            <li><a href="Espoir.html">Espoir</a></li>
+            <li><a href="Regret.html">Regret</a></li>
+            <li><a href="Lieu.html">Lieu</a></li>
+            <li><a href="Orelsan.html">Orelsan</a></li>
+         </ul>
+         <ul>
+            <li><a href="à propos.html">à propos</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Autres projet.html">Autres projet</a></li>
+         </ul>
+        </nav>
+    </header>
+        </div>
+
+    <main>
+        
+        <h1>Seul sur mars</h1>
+        <h3>Synopsis</h3>
+        <p>Seul sur mars est un film créé en 2015 et réalisé par Ridley Scott. C’est un film futuriste
+            de science-fiction voir de science tout court qui raconte l’histoire de Mark Watney un
+            astronaute échoué sur mars. Il est seul et doit faire appel à son intelligence et sa logique
+            pour survivre seul sur la planète mars.</p>
+        <div>
+            <a href="filmographie.html">Filmographie plus détailé du réaisateur</a>
+        </div>
+
+        <h3>Pourquoi avoir choisi ce film ?</h3>
+        <p>J’ai choisi ce film car je trouve qu’il résume très bien notre vie actuelle surtout le projet d’Elon Musk qui consiste à habiter la planète mars. Ce projet est encours et des essais sont réalisés par l’équipe de space x dirigé par Elon Musk. Ce film est très bien réalisé,  très réaliste et je pense même qu’il a joué sur le projet d’habiter sur la panète. Il m’a fait poser beaucoup de questions sur ma vie future dont le questionnement sur l’habitation de la planète mars. Egalement, savoir si oui ou non ce projet peut se réaliser un jour.</p>
+
+        <h3>Un film gorgé de technologie</h3>
+        <p>Le film touche aussi une partie qui m’attire énormément qui est la technologie. De part, la
+            combinaison d’astronaute ultra sophistiquée ainsi que le vaisseau spatial de haute
+            technologie. De plus, on peut retrouver dans le film des panneaux solaires ainsi qu’un
+            système totalement révolutionnaire permettant de faire du jardinage et donc de survivre
+            sur mars. </p>
+        
+        <h3>Un rôle dans l’avancé de notre futur</h3>
+        <p>L’action du film se déroule en 2035 et j’ai très hâte de voir ou nous en serons dans l’avancé
+            de la colonisation de l’espace à cette période car c’est un sujet dans lequel je suis
+            particulièrement intéressé et très curieux de voir jusqu’où nous pourrons aller.</p>
+
+        <h3>Un acteur à la hauteur </h3>
+        <p>L’acteur principal du film est Matt Damon, c’est un acteur américain qui a joué dans de
+            nombreux films comme « il faut sauver le soldat Ryan », « Will Hunting » et beaucoup d’autres.</p>
+
+        <h3>Les points négatifs</h3>
+        <p>Le point négatif que j’ai pu retenir sur ce film est que le réalisateur n’a pas cherché à rentrer
+            plus en détails dans les aspects techniques du métier de l’espace.</p>
+        
+        <h3>Les points positifs </h3>
+        <p>Le film m’a énormément plus par sa réalisation, ses effets spéciaux ainsi que son coté très
+            réaliste. Il m’a permis d’en savoir beaucoup plus sur la colonisation de mars et sur la
+            psychologie de l’homme à savoir survivre seul dans un endroit totalement inconnu.</p>
+
+        <div>
+            <a href="https://www.youtube.com/watch?v=l7NUPqUoP0I">Bande annoce du film </a>
+        </div>
+    </main>
