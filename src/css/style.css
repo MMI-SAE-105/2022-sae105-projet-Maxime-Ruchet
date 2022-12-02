@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(114, 149, 255);
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.logo {
+    flex :none;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.united {
+    flex: none;
+    width: 25px;
+}
+
+#wrap {
+    width: 50%;           
+    height: 100px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #444444;
+  }
+
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+  }
+
+  .navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+  button {
+    position: relative;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+
+
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li:hover ul {
+    display: block;
+  }
+
+  .navbar li ul li {
+    background-color: #444444;
+  }
+
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+  }
+
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+  .img {
+    width: 130px;
+display: block;
+margin: 0 auto;
+  }
+
+  .main {
+    margin-top: 60px;
+  }
+
+  .title {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .max {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: #444444;
+    display: grid;
+    place-content: left;
+  }
+
+  .contactez-nous {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+    display: block;
+    margin: 60px auto;
+    }
+
+    .contact {
+      background-color: #87CEFA;
+    }
+    
+    .contactez-nous > h1 {
+    font-weight: 500;
+    }
+    
+    .contactez-nous > p {
+    font-weight: 300;
+    }
+    
+    form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+    
+    form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+    
+    form div > input, form div > select, form div > textarea {
+    background: #87CEFA;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    }
+    
+    form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+    }
+    
+    form div > select {
+    appearance: none;
+    background-size: 15px;
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    }
+    
+    form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+    }
+    
+    form div > input::placeholder, form div > textarea::placeholder {
+    color: white;
+    }
+    
+    form div > select:invalid {
+    color: white;
+    }
+    
+    form div > select option {
+    background: white;
+    color: #303030;
+    }
+    
+    form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    
+    form button {
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+    }
