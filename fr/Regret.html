@@ -10,32 +10,37 @@
 </head>
 <body>
     <header>
+        <img class="logo" src="/public/img/Logo.svg" alt="Logo">
+        <img class="united" src="/public/img/united-kingdom 1.svg" alt="eng">
         <div>
-        <img src="/public/img/Logo.svg" alt="Logo">
-        <img src="/public/img/united-kingdom 1.svg" alt="eng">
             <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
-         <ul>
-            <li><a href="Livre.html">livre</a></li>
-            <li><a href="Film.html">Film</a></li>
-            <li><a href="Espoir.html">Espoir</a></li>
-            <li><a href="Regret.html">Regret</a></li>
-            <li><a href="Canada.html">Lieu</a></li>
-            <li><a href="Orelsan.html">Orelsan</a></li>
-         </ul>
-         <ul>
-            <li><a href="apropos.html">à propos</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="autresprojets.html">Autres projet</a></li>
-         </ul>
+            <div id="wrap">
+                <ul class="navbar">
+                      <li><a href="Livre.html">Livre</a></li>
+                      <li><a href="Canada.html">Canada</a></li>
+                      <li><a href="Espoir.html">Espoir</a></li>
+                      <li><a href="Orelsan.html">Orelsan</a></li>
+                      <li><a href="Regret.html">Regret</a></li>
+                      <li><a href="Film.html">Film</a></li>
+                      <li><a href="apropos.html">à propos</a></li>
+                      <li><a href="autresprojets.html">Autres projets</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="apropos.html">à propos</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="autresprojets.html">Autres projets</a></li>
+                    </ul>
         </nav>
+    </div>
     </header>
-        </div>
+    
     <main>
-        <img src="/public/img/regret1.webp" alt="image de couverture">
-        <h1>Mes regrets</h1>
+        <img class="img2" src="/public/img/regret1.webp" alt="image de couverture">
+        <h1 class="title">Mes regrets</h1>
         <h3>Le réchauffement de la planète en hausse !!!</h3>
-        <img src="/public/img/regret2.webp" alt="image2">
+        <img class="img2" src="/public/img/regret2.webp" alt="image2">
         <p>Aujourd’hui nous sommes en 2022 et le réchauffement climatique est la chose la plus
             préoccupante actuellement. Tout le monde parle de ça et s’affole. Chaque année la
             température au sein de la planète augmente de plus en plus et des journalistes parlent même
@@ -44,10 +49,10 @@
         <h3>Un nouvel air de colonisation</h3>
         <p>Elon musk que j’ai déjà cité dans un précèdent paragraphe cherche à amener l’homme
             sur la planète mars pour que l’on puisse vivre au sein de cette planète.</p>
-        <img src="/public/img/elon 1.webp" alt="Elon Musk">
+        <img class="img2" src="/public/img/elon 1.webp" alt="Elon Musk">
 
         <h3>Ma plus grande crainte !</h3>
-        <img src="/public/img/regret4.webp" alt="Image femme">
+        <img class="img2" src="/public/img/regret4.webp" alt="Image femme">
         <p>Plus tard, je pense que le réchauffement climatique va empirer en raison de la vitesse dont ça évolue. Le réchauffement climatique fait beaucoup parler de lui dans les réseaux sociaux, infos, actualités etc.…. En ce moment même, il fait des températures à plus de 40° dans certaines zones en France ce qui est très préoccupent. C’est pourquoi j’espère ne jamais connaitre une forte monté de chaleur ni connaître des canicules à plus de 50° car je déteste avoir trop chaud. 
         </p>
 
@@ -58,14 +63,14 @@
             personnes âgés. En raison de la canicule, celle-ci peut jouer sur la destruction de notre
             écosystème c’est à dire des conséquences graves sur l’environnement (incendies, forte chaleur et fonte des glaces).</p>
             <div>
-        <img src="/public/img/regret5.webp" alt="image flamme">
-        <img src="/public/img/regret6.webp" alt="image thermomètre">
-        <img src="/public/img/glacier.webp" alt="image glacier">
+        <img class="img2" src="/public/img/regret5.webp" alt="image flamme">
+        <img class="img2" src="/public/img/regret6.webp" alt="image thermomètre">
+        <img class="img2" src="/public/img/glacier.webp" alt="image glacier">
     </div>
 
         <h3>Des solutions à adopter</h3>
         <p>J’espère qu’un jour nous allons trouver un moyen de diminuer voir arrêter le réchauffement climatique qui touche le monde entier. Pour cela, de nombreuses choses sont misent en place. Il existe, des accords avec de nombreux pays sur la consommation de co2. De nombreux pays alertent leurs habitants pour qu’ils évitent de sur consommer. Des nombreuseux innovations sont présentent pour parer à ce réchauffement. Par exemple, les éoliennes, les panneaux solaires etc. Cependant, pour moi ces efforts ne sont pas assez accentués et j’aimerais un monde futur avec encore plus d’effort pour contrer cette monté du réchauffement climatique.</p>
-         <img src="/public/img/regret10.webp" alt="dernière image regret">
+         <img class="img2" src="/public/img/regret10.webp" alt="dernière image regret">
     </main>
 
     <footer>

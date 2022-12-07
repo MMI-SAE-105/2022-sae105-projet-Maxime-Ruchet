@@ -9,32 +9,40 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
+    
+    
     <header>
+        <img class="logo" src="/public/img/Logo.svg" alt="Logo">
+        <img class="united" src="/public/img/united-kingdom 1.svg" alt="eng">
         <div>
-        <img src="/public/img/Logo.svg" alt="Logo">
-        <img src="/public/img/united-kingdom 1.svg" alt="eng">
             <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
-         <ul>
-            <li><a href="Livre.html">livre</a></li>
-            <li><a href="Film.html">Film</a></li>
-            <li><a href="Espoir.html">Espoir</a></li>
-            <li><a href="Regret.html">Regret</a></li>
-            <li><a href="Canada.html">Lieu</a></li>
-            <li><a href="Orelsan.html">Orelsan</a></li>
-         </ul>
-         <ul>
-            <li><a href="apropos.html">à propos</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="autresprojets.html">Autres projet</a></li>
-         </ul>
+            <div id="wrap">
+                <ul class="navbar">
+                      <li><a href="Livre.html">Livre</a></li>
+                      <li><a href="Canada.html">Canada</a></li>
+                      <li><a href="Espoir.html">Espoir</a></li>
+                      <li><a href="Orelsan.html">Orelsan</a></li>
+                      <li><a href="Regret.html">Regret</a></li>
+                      <li><a href="Film.html">Film</a></li>
+                      <li><a href="apropos.html">à propos</a></li>
+                      <li><a href="autresprojets.html">Autres projets</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="apropos.html">à propos</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="autresprojets.html">Autres projets</a></li>
+                    </ul>
         </nav>
+    </div>
     </header>
-        </div>
-    <main>
+
+    
+    <main class="main">
         <section>
-        <img src="/public/img/espoir1.webp" alt="première image espoir">
-        <h1>Mes espoirs</h1>
+        <img class="img2" src="/public/img/espoir1.webp" alt="première image espoir">
+        <h1 class="title">Mes espoirs</h1>
         <h2>L’avancée de la technoloogie</h2>
         <p>À l’heure actuelle, mon plus grand espoir pour ma génération est le développement de la
             technologie. Aujourd’hui, nous sommes à la transition de voiture thermique à voiture
@@ -43,30 +51,30 @@
             septiques sur le sujet car nous n’avons pas encore trouvé un moyen de recycler les batteries
             usagés des voitures éléctriques. Je pense que dans plusieurs années nous verrons un monde
             avec des voitures électriques dont la particularité sera d’avoir une conduite totalement autonome.</p>
-        <img src="/public/img/espoir2.webp" alt="deuxième image espoir">
+        <img class="img2" src="/public/img/espoir2.webp" alt="deuxième image espoir">
     </section>
         
     <h3>Les transports du futur</h3>
-        <img src="/public/img/espoir3.webp" alt="troisième image espoir">
+        <img class="img2" src="/public/img/espoir3.webp" alt="troisième image espoir">
         <p> De nos jours des prototypes de transports sont en développement. Ce type de
             transport serait comme une voiture autonome qui voyagerait dans les airs. Ce projet est en
             finalisation et je me demande si oui ou non ce concept va être une révolution.</p>
-        <img src="/public/img/espoir4.webp" alt="quatrième image espoir">
+        <img class="img2" src="/public/img/espoir4.webp" alt="quatrième image espoir">
     
         <h3>Les téléphones en constantes évolutions</h3>
         <p>Chaque année des nouveaux prototypes de téléphone ont fait leurs apparitions partout dans le monde. Je suis
             passionné par les nouveaux téléphones et j’ai hâte de savoir plus tard les évolutions faites
             sur ces produits. J’espère plus tard avoir un système plus puissant que la fibre afin de faire
             des téléchargements et naviguer sur le web en rapidité supérieur.</p>
-        <img src="/public/img/espoir5.webp" alt="ciquième image espoir">
+        <img class="img2" src="/public/img/espoir5.webp" alt="ciquième image espoir">
 
         <h3>L’éléctrique mis en avant </h3>
-        <img src="/public/img/espoir6.webp" alt="sixième image">
+        <img class="img2" src="/public/img/espoir6.webp" alt="sixième image">
         <p>De nos jours, Elon Musk cherche à développer des puces électroniques insérées dans notre boîte crânienne afin d’accéder en temps réel dans le metavers. J’espère plus tard ne pas assister à cette technologie car à l’heure actuelle je crains que ce ne soit pas bon pour notre santé mentale. 
         </p>
         <p>L’évolution de la technologie peut être une bonne chose d’un point de vue médical car ça va permettre de soigner de nombreuses maladies mortelles. </p>
         <p>Cependant, de nombreuses personnes peuvent tomber dans des phases d’addiction et de dépression à cause d’internet. Pour moi, il faut surveiller ces effets néfastes car la technologie avance à grande vitesse.</p>
-        <img src="/public/img/espoir7.webp" alt="septième image">
+        <img class="img2" src="/public/img/espoir7.webp" alt="septième image">
     </main>
 
     <footer>
