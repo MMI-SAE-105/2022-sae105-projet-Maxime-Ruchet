@@ -313,8 +313,11 @@ margin-bottom: 20px;
   text-decoration: underline;
 }
 
-
-
+.imgregret {
+  width:50%;
+ margin-left: auto ;
+ margin-right:auto ;
+}
 
 
 

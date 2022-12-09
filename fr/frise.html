@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/frise.css">
+    <body>
+      
+      <header>
+         <img class="logo" src="/public/img/Logo.svg" alt="Logo">
+         <img class="united" src="/public/img/united-kingdom 1.svg" alt="eng">
+         <div>
+             <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
+          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms>
+             <div id="wrap">
+                 <ul class="navbar">
+                       <li><a href="Livre.html">Livre</a></li>
+                       <li><a href="Canada.html">Canada</a></li>
+                       <li><a href="Espoir.html">Espoir</a></li>
+                       <li><a href="Orelsan.html">Orelsan</a></li>
+                       <li><a href="Regret.html">Regret</a></li>
+                       <li><a href="Film.html">Film</a></li>
+                       <li><a href="apropos.html">à propos</a></li>
+                       <li><a href="autresprojets.html">Autres projets</a></li>
+                       <li><a href="Contact.html">Contact</a></li>
+                     </ul>
+                     <ul>
+                       <li><a href="apropos.html">à propos</a></li>
+                       <li><a href="Contact.html">Contact</a></li>
+                       <li><a href="autresprojets.html">Autres projets</a></li>
+                     </ul>
+         </nav>
+     </div>
+     </header>
+
+     <main class="main">
+<div class="frise">
+  
+  
+    <div class="segment titre">
+      <div class="bloc"><h1>Frise de mes autres lieu favoris<span class="date"></span></1></div>
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    
+    <div class="segment first">
+      <div class="bloc gauche"></div><!-- .gauche -->
+      <div class="bloc droite"></div><!-- .droite -->
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    
+    <div class="segment">
+      <div class="bloc gauche">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. Sed venenatis sodales est sed feugiat. Mauris placerat nisl in metus finibus sollicitudin. Donec libero nulla, laoreet at urna eu, aliquam pretium sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .gauche -->
+      <div class="bloc droite">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .droite -->
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    
+    <div class="segment">
+      <div class="bloc gauche">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. Sed venenatis sodales est sed feugiat.
+  
+        <!-- Attention au code vidéo : on créé un DIV dans lequel on collele code de partage de youtube PUIS, on change la taille de l'IFRAME par défaut pour la fixer à 100% -->
+        <div class="video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ivFNVXdmkxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>. 
+          </div>
+  
+        Pellentesque sit amet mollis sapien, commodo semper ante. Sed venenatis sodales est sed feugiat. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .gauche -->
+      <div class="bloc droite">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .droite -->
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    
+    <div class="segment">
+      <div class="bloc gauche">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+       <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. Sed venenatis sodales est sed feugiat. Mauris placerat nisl in metus finibus sollicitudin. Donec libero nulla, laoreet at urna eu, aliquam pretium sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .gauche -->
+      <div class="bloc droite">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .droite -->
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    <div class="segment">
+      <div class="bloc gauche">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. Sed venenatis sodales est sed feugiat. Mauris placerat nisl in metus finibus sollicitudin. Donec libero nulla, laoreet at urna eu, aliquam pretium sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .gauche -->
+      <div class="bloc droite">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        <span class="date">XX/XX/2018</span>Integer maximus diam eu pharetra laoreet. Sed in ipsum sem. Nam sollicitudin egestas est, vitae hendrerit ante dapibus quis. Pellentesque sit amet mollis sapien, commodo semper ante. <a class="source">source</a> <a class="a-plus">en savoir plus</a>
+      </div><!-- .droite -->
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    
+    <div class="segment last">
+      <div class="bloc gauche">&nbsp;</div><!-- .gauche -->
+      <div class="bloc droite">&nbsp;</div><!-- .droite -->
+      <div class="cb"></div>
+    </div><!-- .segment -->
+    
+    
+  </div><!-- .frise -->
+
+</main>
+
+<footer>
+  <div class="footer">
+      <div class="container-logo-with-info">
+          <div class="logo-with-info">
+          <div class="info">
+              <ul>
+                  <li>Maxime Ruchet</li>
+                  <li> Groupe C1</li>
+              </ul>
+          </div>
+          <div class="logo-mmi">
+              <img src="/public/img/MMI_dut_small_black1.webp" alt="logo mmi">
+          </div>
+          </div>
+          <div class="list-mail-with-contact">
+              <ul>
+                  <li>
+                      <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                  </li>
+                  <li>Contact</li>
+              </ul> 
+          </div>
+     </div>
+      <div class="logo-contact">
+          <img src="/public/img/instagram.svg" alt="logo insta"></img>
+          <img src="/public/img/facebook.svg" alt="logo facebook"></img>
+          <img src="/public/img/mail.svg" alt="logo mail"></img> 
+
+      </div>
+      <div class="bas-de-footer">
+
+      </div>
+  </div>
+</footer>
