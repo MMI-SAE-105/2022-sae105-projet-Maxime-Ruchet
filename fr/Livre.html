@@ -10,11 +10,11 @@
     <body>
       
       <header>
-         <a class="logo" href="index.html"><img src="/public/img/Logo.svg"  alt="Logo"></a> 
+         <img class="logo" src="/public/img/Logo.svg" alt="Logo">
          <img class="united" src="/public/img/united-kingdom 1.svg" alt="eng">
          <div>
              <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
-          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms>
              <div id="wrap">
                  <ul class="navbar">
                        <li><a href="Livre.html">Livre</a></li>
@@ -84,17 +84,38 @@
       </main>
 
       <footer>
-         <p>MMI montbéliard</p>
-         <p>Me contacter</p>
-         <img src="/public/img/instagram 1.svg" alt="instagram">
-         <img src="/public/img/Vector.svg" alt="Facebook">
-         <img src="/public/img/mail 1.svg" alt="Mail">
-         <h3>Mention légal</h3>
-         <p>Projet réalisé dans le cadre d’un exercice
-             pédagogique au département</p>
-         <p><a href="http://mmimontbeliard.com/">MMI montbéliard</a></p>
-         <p>Maxime Ruchet</p>
-         <img src="/public/img/MMI_dut_small_black 1.webp" alt="logo mmi">
+         <div class="footer">
+             <div class="container-logo-with-info">
+                 <div class="logo-with-info">
+                 <div class="info">
+                     <ul>
+                         <li>Maxime Ruchet</li>
+                         <li> Groupe C1</li>
+                     </ul>
+                 </div>
+                 <div class="logo-mmi">
+                     <img src="/public/img/MMI_dut_small_black1.webp" alt="logo mmi">
+                 </div>
+                 </div>
+                 <div class="list-mail-with-contact">
+                     <ul>
+                         <li>
+                             <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                         </li>
+                         <li>Contact</li>
+                     </ul> 
+                 </div>
+            </div>
+             <div class="logo-contact">
+                 <img src="/public/img/instagram.svg" alt="logo insta"></img>
+                 <img src="/public/img/facebook.svg" alt="logo facebook"></img>
+                 <img src="/public/img/mail.svg" alt="logo mail"></img> 
+
+             </div>
+             <div class="bas-de-footer">
+
+             </div>
+         </div>
      </footer>
  </body> 
  
