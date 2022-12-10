@@ -94,13 +94,9 @@ width: 380px; }
   }
   .cb { clear:both; }
   
-  /* classes CSS des vidéos */
-  .bloc .video { margin: 20px 0 15px 0;  width: 100%; height: 300px !important; }
-  
-  @media screen and (max-width: 1300px) {
-    .bloc .video { height: 200px !important; }
-  }
-  
-  @media screen and (max-width: 900px) {
-    .bloc .video { height: 150px !important; }
+  .imgfrise {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
   }
