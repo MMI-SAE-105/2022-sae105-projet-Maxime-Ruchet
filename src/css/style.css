@@ -241,7 +241,7 @@ p {
 
 h3 {
   margin-left: 5px;
-  color: #F64C72;
+  color: #f2f2f2;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
 }
@@ -261,5 +261,5 @@ li {
 
 h1 {
   font-family: 'Orbitron', sans-serif;
-  color: #F64C72;
+  color: black;
 }
