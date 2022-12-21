@@ -11,7 +11,7 @@ margin-top: 60px;
 width: 380px; }
   
   .bloc > h1 { margin-top: 10px; font-size: 36px; }
-  .bloc > h2 { margin-top: 0px; font-size: 22px; }
+  .bloc > h2 { margin-top: 0px; font-size: 22px; color: black;}
   
   .segment {  
     margin: 0;
