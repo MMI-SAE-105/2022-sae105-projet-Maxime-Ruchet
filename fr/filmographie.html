@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}"></html>
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    </html>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="/public/img/Logo.svg" alt="Logo"></a>
+        <img class="united" src="/public/img/united-kingdom 1.svg" alt="eng">
+        <div>
+            <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
+         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms>
+            <div id="wrap">
+                <ul class="navbar">
+                      <li><a href="Livre.html">Livre</a></li>
+                      <li><a href="Canada.html">Canada</a></li>
+                      <li><a href="Espoir.html">Espoir</a></li>
+                      <li><a href="Orelsan.html">Orelsan</a></li>
+                      <li><a href="Regret.html">Regret</a></li>
+                      <li><a href="Film.html">Film</a></li>
+                      <li><a href="apropos.html">à propos</a></li>
+                      <li><a href="autresprojets.html">Autres projets</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="apropos.html">à propos</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="autresprojets.html">Autres projets</a></li>
+                    </ul>
+        </nav>
+    </div>
+    </header>
+</body>
+<main class="main">
+    <img class="img2" src="/public/img/filmographie1.webp" alt="">
+    <h1 class="title">Philmographie Ridley Scott</h1>
+    <h3>Gladiator</h3>
+    <p>Gladiator a été crée en 2000 par Ridley Scott. C’est un filme basé sur l’histoire des romains se situant à la fin du IIe siècle après Jésus-Christ. Nous puvons voir à travers le film un réalité historique mise en place par le réalisateur.</p>
+    <img class="img2" src="/public/img/filmographie2.webp" alt="">
+    <h3>Alien, le huitième passager</h3>
+    <p>Alien, le huitième passager à été créé en 1976. C’est un film futurisme basé sur le thème spacial avec la présence d’alliens.</p>
+    <img class="img2" src="/public/img/filmographie3.webp" alt="">
+    <h3>Thelma et Louise</h3>
+    <p>Thelma et Louise est un film de comédie dramatique. Le film nous fait l’histoire de deux amis ainsi que leurs différente tragédies.</p>
+    <img class="img2" src="/public/img/caroussel4.webp" alt="">
+    <h3>Blade Runner</h3>
+    <p>Blade Runner est un film de science fiction créé en 1982. Le film mets en scène des humains en guerre contre des droïde. L’action se déroule à Los Angeles en 2019.</p>
+    <img class="img2" src="/public/img/filmographie5.webp" alt="">
+    <h3>American Gangster</h3>
+    <p>American Gangster est un film créé en 2007. C’est un fim policier sur la guerre entre les différent gang se situant au états-unis</p>
+    <img class="img2" src="/public/img/filmographie6.webp" alt="">
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="container-logo-with-info">
+            <div class="logo-with-info">
+            <div class="info">
+                <ul>
+                    <li>Maxime Ruchet</li>
+                    <li> Groupe C1</li>
+                </ul>
+            </div>
+            <div class="logo-mmi">
+                <img src="/public/img/MMI_dut_small_black1.webp" alt="logo mmi">
+            </div>
+            </div>
+            <div class="list-mail-with-contact">
+                <ul>
+                    <li>
+                        <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                    </li>
+                    <li>Contact</li>
+                </ul> 
+            </div>
+       </div>
+        <div class="logo-contact">
+            <img src="/public/img/instagram.svg" alt="logo insta">
+            <img src="/public/img/facebook.svg" alt="logo facebook">
+            <img src="/public/img/mail.svg" alt="logo mail">
+
+        </div>
+        <div class="bas-de-footer">
+
+        </div>
+    </div>
+</footer>
+</body>
