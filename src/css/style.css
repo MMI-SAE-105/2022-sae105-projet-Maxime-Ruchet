@@ -285,3 +285,11 @@ h4 {
     margin: auto;
     margin-top: 20px;
 }
+
+.imgcanadaregret {
+  display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+}
