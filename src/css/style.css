@@ -277,3 +277,11 @@ h4 {
 .texte > p {
   color: black;
 }
+
+.imgarticle {
+  display: block;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
