@@ -179,7 +179,7 @@ footer{
 }
 
 .container-logo-with-info {
-  font-size: 22px;
+  font-size: 25px;
   list-style-type: none;
 }
 
@@ -292,4 +292,11 @@ h4 {
     height: auto;
     margin: auto;
     margin-top: 60px;
+}
+
+.logommi {
+  display: block;
+max-width: 50%;
+height: auto;
+margin: auto;
 }
