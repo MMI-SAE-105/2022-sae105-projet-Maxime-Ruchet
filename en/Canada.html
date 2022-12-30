@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="/public/img/Logo.svg" alt="Logo"></a>
+        <a href="/fr/Canada.html"><img class="united" src="/public/img/united-kingdom 1.svg" alt="eng"></a>
+        <div>
+            <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
+         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+            <div id="wrap">
+                <ul class="navbar">
+                      <li><a href="Livre.html">Book</a></li>
+                      <li><a href="Canada.html">Canada</a></li>
+                      <li><a href="Espoir.html">Hope</a></li>
+                      <li><a href="Orelsan.html">Orelsan</a></li>
+                      <li><a href="Regret.html">Regret</a></li>
+                      <li><a href="Film.html">Movie</a></li>
+                      <li><a href="apropos.html">About</a></li>
+                      <li><a href="autresprojets.html">Other projext</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="apropos.html">About</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="autresprojets.html">Other project</a></li>
+                    </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <img class="imgcanadaregret" src="/public/img/drapeau.webp" alt="Drapreau Canada">
+        <h1 class="title">Canada</h1>
+        <h3>Why Canada ?</h3>
+        <p>I chose this place because it is a country which attracts me enormously on the one hand by its progress
+            technologies and on the other hand by its extraordinary landscapes. Moreover, this choice of place in my project
+            is partly due to the fact that I dream of going to Canada one day in my future life. Dawn
+            boreal, which is the best known phenomenon in Canada, is something that attracts me the most
+            because of the beauty of the colors and the landscape it offers. Finally, Canada is a country that remains cold all year round.</p>
+        
+        <h3>A country with a promising future</h3>
+        <p>I also find that it is a country with a great future, with great faith in the future of technology and ecology. It is a very wild country with magnificent landscapes. As I speak to you, I dream of working in Canada in a web development company and why not be a freelance web designer for various requests.</p>
+        <img class="imgarticle" src="/public/img/paysagecanada.webp" alt="paysage canada">
+
+        <h3>Magnificent landscapes!</h3>
+        <img class="imgarticle" src="/public/img/candadpays.webp" alt="paysage canda">
+        <p>I hope to live one day in Canada to be able to hike in the forests, especially in the Canadian boreal forest which seems to be a particularly beautiful place with its landscapes and its gigantism. The northern lights, which are the star phenomena of this country, are events that I dream of seeing one day in my life.</p>
+        <img class="imgarticle" src="/public/img/auroreboreal.webp" alt="aurore boréal">
+
+        <h3>Canada's Challenges</h3>
+        <p>I hope to one day live in Canada to hike in the forests,
+            especially in the Canadian boreal forest which seems to be a particularly
+            beautiful by its landscapes and its gigantism. Nowadays, we only talk about
+            global warming and Canada is particularly affected since the continent is
+            located in the northern hemisphere of planet Earth. I hope that in the future you can
+            to see a change in ecological conditions and that humanity will have found a
+            solution to stop this phenomenon.</p>
+        <img class="imgarticle" src="/public/img/ourse.webp" alt="ourse polaire">
+
+        <h3>Canada's flaws</h3>
+        <p>The only complaint I can make about Canada is that football is not very developed in this country, unlike France. In Canada, it is hockey that is particularly practiced, while my favorite sport is football.</p>
+        <img class="imgarticle" src="/public/img/hockey.webp" alt="image hockey">
+        <div>
+        <a class="alien" href="frise.html">Frieze of other countries that attracts me a lot</a>
+    </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container-logo-with-info">
+                <div class="logo-with-info">
+                <div class="info">
+                    <ul>
+                        <li>Maxime Ruchet</li>
+                        <li>Group C1</li>
+                    </ul>
+                </div>
+                <div class="logo-mmi">
+                    <a href="http://mmimontbeliard.com/formation-mmi"><img class="logommi" src="/public/img/MMI_dut_small_black1.webp" alt="Logo"></a>
+                </div>
+                </div>
+                <div class="list-mail-with-contact">
+                    <ul>
+                        <li>
+                            <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                        </li>
+                        <li>Contact</li>
+                    </ul> 
+                </div>
+           </div>
+            <div class="logo-contact">
+                <img src="/public/img/instagram.svg" alt="logo insta">
+                <img src="/public/img/facebook.svg" alt="logo facebook">
+                <img src="/public/img/mail.svg" alt="logo mail">
+
+            </div>
+            <div class="bas-de-footer">
+
+            </div>
+        </div>
+    </footer>
+</body>

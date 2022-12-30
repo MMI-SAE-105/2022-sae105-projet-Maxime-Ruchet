@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp hebergement</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <body>
+      
+      <header>
+        <a href="index.html"><img class="logo" src="/public/img/Logo.svg" alt="Logo"></a>
+         <a href="/fr/Livre.html"><img class="united" src="/public/img/united-kingdom 1.svg" alt="eng"></a>
+         <div>
+             <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/align-justify 1.svg" alt="menu"></button>
+          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms>
+             <div id="wrap">
+                 <ul class="navbar">
+                       <li><a href="Livre.html">Book</a></li>
+                       <li><a href="Canada.html">Canada</a></li>
+                       <li><a href="Espoir.html">Hope</a></li>
+                       <li><a href="Orelsan.html">Orelsan</a></li>
+                       <li><a href="Regret.html">Regret</a></li>
+                       <li><a href="Film.html">Movie</a></li>
+                       <li><a href="apropos.html">About</a></li>
+                       <li><a href="autresprojets.html">Other project</a></li>
+                       <li><a href="Contact.html">Contact</a></li>
+                     </ul>
+                     <ul>
+                       <li><a href="apropos.html">About</a></li>
+                       <li><a href="Contact.html">Contact</a></li>
+                       <li><a href="autresprojets.html">Other project</a></li>
+                     </ul>
+         </nav>
+     </div>
+     </header>
+
+      <main class="main">
+         <img class="img2" src="/public/img/41JPlY5ie6L 2.webp" alt="Image de couverture">
+         <h1 class="title">Steve Jobs: Biography</h1>
+         <h3>Summary</h3>
+         <p>This book was written at the request of Steve Jobs by Walter Isaacson in 2011. It is a
+            biography that tells the life of Steve Jobs from his childhood to his great success
+            which is the creation of the famous apple brand as well as the different stages that have gone through it
+            to carry out this beautiful project.</p>
+         
+         <h3>Why I chose this book</h3>
+         <p>I chose it because it is a book that inspires me enormously given the motivation
+            as well as the innovative side of Steve Jobs that it took to create his company. In addition
+            what I particularly liked in this biography is that we learn everything about Steve's life since childhood. This book tells the story of his life in chronological order.
+            according to its different periods. To be honest, it's one of the first books I've read in its entirety and had a lot of fun discovering. In my opinion, this is an achievement regarding the biography of Steve Jobs.</p>
+         
+         <h3>The negative points</h3>
+         <ul>
+            <li>Not written directly by Steve Jobs</li>
+            <li>Lack of confession by the author and his relatives</li>
+            <li>Due to its 900 pages, felt a slight monotony in some passages of the book.</li>
+         </ul>
+         
+         <h3>The positive points</h3>
+         <ul>
+            <li>Very well written book</li>
+            <li>Respects the various information concerning Steve Jobs</li>
+            <li>Very immersive book</li>
+            <li>Well-detailed history of Steve Jobs</li>
+         </ul>
+
+         <h3>Inspiration for later</h3>
+         <p>I hope later to be inspired by Steve Jobs. His side
+            innovative as well as the determination that one feels in his book will help me in my life
+            professional and personal. This book has me a lot more on the side
+            technological than technical. Indeed, in the book we can see that
+            between the 2000s and today, telephones have evolved enormously.
+            Which is very interesting and promising.</p>
+
+         <h3>Excerpt that stood out to me</h3>
+         <p>“ Jobs has this incredible ability to invent gadgets that you don't need and suddenly can't live without. “ </p>
+         <p>I chose this clip because for me it shows how innovative and very marketing Steve Jobs is. That's something I really like about him.</p>
+      </main>
+
+      <footer>
+        <div class="footer">
+            <div class="container-logo-with-info">
+                <div class="logo-with-info">
+                <div class="info">
+                    <ul>
+                        <li>Maxime Ruchet</li>
+                        <li> Group C1</li>
+                    </ul>
+                </div>
+                <div class="logo-mmi">
+                    <a href="http://mmimontbeliard.com/formation-mmi"><img class="logommi" src="/public/img/MMI_dut_small_black1.webp" alt="Logo"></a>
+                </div>
+                </div>
+                <div class="list-mail-with-contact">
+                    <ul>
+                        <li>
+                            <span class="mailto"><a href="mailto:ruchet.maxime@gmail.com">ruchet.maxime@gmail.com</a></span>
+                        </li>
+                        <li>Contact</li>
+                    </ul> 
+                </div>
+           </div>
+            <div class="logo-contact">
+                <img src="/public/img/instagram.svg" alt="logo insta">
+                <img src="/public/img/facebook.svg" alt="logo facebook">
+                <img src="/public/img/mail.svg" alt="logo mail">
+
+            </div>
+            <div class="bas-de-footer">
+
+            </div>
+        </div>
+    </footer>
+ </body>
