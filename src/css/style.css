@@ -343,6 +343,18 @@ margin: auto;
 }
 
 .videofilm {
-  max-width: 100%;
+  max-width: 75%;
   display: block;
+  margin-left: 50px;
+}
+
+.aexterne {
+  color: #f2f2f2;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.aindex {
+  color: black;
+  font-family: 'Inter', sans-serif;
 }
