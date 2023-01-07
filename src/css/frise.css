@@ -8,7 +8,7 @@
   
   .frise { margin: auto;
 margin-top: 60px;
-width: 380px; }
+width: 340px; }
   
   .bloc > h1 { margin-top: 10px; font-size: 36px; }
   .bloc > h2 { margin-top: 0px; font-size: 22px; color: black;}
@@ -34,7 +34,6 @@ width: 380px; }
     background-color: rgba(255,255,255,1);
     box-shadow: 0px 0px 20px rgba(255,100,51,0.3); 
     margin:15px;
-    padding:2%;
     border-radius:5px;
     width:38%;
   }
@@ -96,7 +95,8 @@ width: 380px; }
   
   .imgfrise {
     display: block;
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
     margin: auto;
+    margin-block: 10px;
   }
